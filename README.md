@@ -23,9 +23,6 @@ student_df = pd.read_csv(student_data_to_load)
 Combine the data into a single dataset.  
 school_student_df = pd.merge(student_df, school_df, how="left", on=["school_name", "school_name"])
 
-
-
-
 4. Data Analysis
 
 Calculating parameters for the summary
